@@ -1,0 +1,117 @@
+[
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/2512C911B403F379",
+    "operationId": "2512C911B403F379",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:03:43.552486Z",
+      "duration": "PT3M0.8352328S",
+      "trackingId": "1f00200f-c129-4950-ad6e-95a2da3651df",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/databases/lovecooking",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "swe-lovecooking/lovecooking"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/27903F3B89EE6ADD",
+    "operationId": "27903F3B89EE6ADD",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:01:59.6561611Z",
+      "duration": "PT1.5584451S",
+      "trackingId": "1609a871-1db6-48f2-8920-4393426d136f",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/firewallrules/ClientIp-2022-5-6_13-0-35",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "swe-lovecooking/ClientIp-2022-5-6_13-0-35"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/AAB24B4193C24C5B",
+    "operationId": "AAB24B4193C24C5B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:01:59.5576586Z",
+      "duration": "PT1.4599426S",
+      "trackingId": "465de72d-7a72-4aba-b3c4-ea8e158ec357",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "swe-lovecooking/AllowAllWindowsAzureIps"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/55ADF408A77CAA5A",
+    "operationId": "55ADF408A77CAA5A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:01:59.0528354Z",
+      "duration": "PT0.9551194S",
+      "trackingId": "20070e7f-4065-465a-a232-c06c783e2c02",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/connectionPolicies/Default",
+        "resourceType": "Microsoft.Sql/servers/connectionPolicies",
+        "resourceName": "swe-lovecooking/Default"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/6378CC6D53DE1A26",
+    "operationId": "6378CC6D53DE1A26",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:01:58.6963512Z",
+      "duration": "PT0.5986352S",
+      "trackingId": "07610b2e-dc32-4d99-8b02-9eb2153f794a",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+        "resourceType": "Microsoft.Sql/servers",
+        "resourceName": "swe-lovecooking",
+        "apiVersion": "2018-06-01-preview"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/20232949AB4880C1",
+    "operationId": "20232949AB4880C1",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:01:58.0223681Z",
+      "duration": "PT1M15.3051149S",
+      "trackingId": "dcb8d988-2756-4f2e-beb5-adaf61652476",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+        "resourceType": "Microsoft.Sql/servers",
+        "resourceName": "swe-lovecooking"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1/operations/08585497720449517367",
+    "operationId": "08585497720449517367",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2022-05-06T11:03:43.9892222Z",
+      "duration": "PT0.1510635S",
+      "trackingId": "3b6e3b26-43fb-485a-8c81-3011fa3b6ee2",
+      "statusCode": "OK"
+    }
+  }
+]

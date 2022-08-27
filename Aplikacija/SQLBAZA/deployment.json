@@ -1,0 +1,479 @@
+{
+  "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1",
+  "name": "Microsoft.SQLDatabase.newDatabaseNewServer_ddfdf136f18c4ee3ba0b1",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/databases/lovecooking",
+    "marketplaceItemId": "Microsoft.SQLDatabase"
+  },
+  "properties": {
+    "templateHash": "4927921951312306783",
+    "parameters": {
+      "administratorLogin": {
+        "type": "String",
+        "value": "team3a"
+      },
+      "administratorLoginPassword": {
+        "type": "SecureString"
+      },
+      "administrators": {
+        "type": "Object",
+        "value": {}
+      },
+      "collation": {
+        "type": "String",
+        "value": "SQL_Latin1_General_CP1_CI_AS"
+      },
+      "databaseName": {
+        "type": "String",
+        "value": "lovecooking"
+      },
+      "tier": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skuName": {
+        "type": "String",
+        "value": "S0"
+      },
+      "location": {
+        "type": "String",
+        "value": "germanywestcentral"
+      },
+      "maxSizeBytes": {
+        "type": "Int",
+        "value": 2147483648
+      },
+      "serverName": {
+        "type": "String",
+        "value": "swe-lovecooking"
+      },
+      "sampleName": {
+        "type": "String",
+        "value": ""
+      },
+      "zoneRedundant": {
+        "type": "Bool",
+        "value": false
+      },
+      "licenseType": {
+        "type": "String",
+        "value": ""
+      },
+      "readScaleOut": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "numberOfReplicas": {
+        "type": "Int",
+        "value": 0
+      },
+      "minCapacity": {
+        "type": "String",
+        "value": ""
+      },
+      "autoPauseDelay": {
+        "type": "String",
+        "value": ""
+      },
+      "enableADS": {
+        "type": "Bool",
+        "value": false
+      },
+      "allowAzureIps": {
+        "type": "Bool",
+        "value": true
+      },
+      "databaseTags": {
+        "type": "Object",
+        "value": {}
+      },
+      "serverTags": {
+        "type": "Object",
+        "value": {}
+      },
+      "enableVA": {
+        "type": "Bool",
+        "value": false
+      },
+      "useVAManagedIdentity": {
+        "type": "Bool",
+        "value": false
+      },
+      "enablePrivateEndpoint": {
+        "type": "Bool",
+        "value": false
+      },
+      "privateEndpointNestedTemplateId": {
+        "type": "String",
+        "value": "pe-8aae3112-11c5-4f76-b38b-6eb9ea1e7012"
+      },
+      "privateEndpointSubscriptionId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointResourceGroup": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointSubnetId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateLinkServiceName": {
+        "type": "String",
+        "value": ""
+      },
+      "privateLinkServiceServiceId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointVnetSubscriptionId": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointVnetResourceGroup": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointVnetName": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointSubnetName": {
+        "type": "String",
+        "value": ""
+      },
+      "enablePrivateDnsZone": {
+        "type": "Bool",
+        "value": true
+      },
+      "privateLinkPrivateDnsZoneFQDN": {
+        "type": "String",
+        "value": "privatelink.database.windows.net"
+      },
+      "privateEndpointDnsRecordUniqueId": {
+        "type": "String",
+        "value": "8aae3112-11c5-4f76-b38b-6eb9ea1e7015"
+      },
+      "privateEndpointTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01941228/DeploymentTemplates/PrivateEndpoint.json"
+      },
+      "privateDnsForPrivateEndpointTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01941228/DeploymentTemplates/PrivateDnsForPrivateEndpoint.json"
+      },
+      "privateDnsForPrivateEndpointNicTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01941228/DeploymentTemplates/PrivateDnsForPrivateEndpointNic.json"
+      },
+      "privateDnsForPrivateEndpointIpConfigTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01941228/DeploymentTemplates/PrivateDnsForPrivateEndpointIpConfig.json"
+      },
+      "allowClientIp": {
+        "type": "Bool",
+        "value": true
+      },
+      "clientIpRuleName": {
+        "type": "String",
+        "value": "ClientIp-2022-5-6_13-0-35"
+      },
+      "clientIpValue": {
+        "type": "String",
+        "value": "109.245.33.137"
+      },
+      "requestedBackupStorageRedundancy": {
+        "type": "String",
+        "value": "Local"
+      },
+      "maintenanceConfigurationId": {
+        "type": "String",
+        "value": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/providers/Microsoft.Maintenance/publicMaintenanceConfigurations/SQL_Default"
+      },
+      "keyId": {
+        "type": "String",
+        "value": ""
+      },
+      "identity": {
+        "type": "Object",
+        "value": {
+          "type": "None"
+        }
+      },
+      "primaryUserAssignedIdentityId": {
+        "type": "String",
+        "value": ""
+      },
+      "minimalTlsVersion": {
+        "type": "String",
+        "value": "1.2"
+      },
+      "enableSqlLedger": {
+        "type": "Bool",
+        "value": false
+      },
+      "connectionType": {
+        "type": "String",
+        "value": "Default"
+      },
+      "enableDigestStorage": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "digestStorageOption": {
+        "type": "String",
+        "value": ""
+      },
+      "digestStorageName": {
+        "type": "String",
+        "value": ""
+      },
+      "blobStorageContainerName": {
+        "type": "String",
+        "value": ""
+      },
+      "retentionDays": {
+        "type": "String",
+        "value": ""
+      },
+      "retentionPolicy": {
+        "type": "Bool",
+        "value": false
+      },
+      "digestAccountResourceGroup": {
+        "type": "String",
+        "value": ""
+      },
+      "digestRegion": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountdigestRegion": {
+        "type": "String",
+        "value": ""
+      },
+      "isNewDigestLocation": {
+        "type": "Bool",
+        "value": false
+      },
+      "sqlLedgerTemplateLink": {
+        "type": "String",
+        "value": "https://sqlazureextension.hosting.portal.azure.net/sqlazureextension/Content/2.1.01941228/DeploymentTemplates/SqlLedger.json"
+      },
+      "servicePrincipal": {
+        "type": "Object",
+        "value": {
+          "type": "None"
+        }
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2022-05-06T11:02:01.0278574Z",
+    "duration": "PT1M19.3676024S",
+    "correlationId": "5ea2ec53-441d-40dd-892d-5551fa2b8093",
+    "providers": [
+      {
+        "namespace": "Microsoft.Sql",
+        "resourceTypes": [
+          {
+            "resourceType": "servers",
+            "locations": [
+              "germanywestcentral"
+            ]
+          },
+          {
+            "resourceType": "servers/databases",
+            "locations": [
+              "germanywestcentral"
+            ]
+          },
+          {
+            "resourceType": "servers/firewallrules",
+            "locations": [
+              "germanywestcentral"
+            ]
+          },
+          {
+            "resourceType": "servers/connectionPolicies",
+            "locations": [
+              "germanywestcentral"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Storage/storageAccounts/sqlvar7to525c4aick",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "sqlvar7to525c4aick"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking",
+            "apiVersion": "2018-06-01-preview"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Storage/storageAccounts/sqlvar7to525c4aick/providers/Microsoft.Authorization/roleAssignments/d02b65d5-ac71-5fab-8eac-e68a709c529e",
+        "resourceType": "Microsoft.Storage/storageAccounts/providers/roleAssignments",
+        "resourceName": "sqlvar7to525c4aick/Microsoft.Authorization/d02b65d5-ac71-5fab-8eac-e68a709c529e"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/databases/lovecooking",
+        "resourceType": "Microsoft.Sql/servers/databases",
+        "resourceName": "swe-lovecooking/lovecooking"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/firewallrules/AllowAllWindowsAzureIps",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "swe-lovecooking/AllowAllWindowsAzureIps"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/connectionPolicies/Default",
+        "resourceType": "Microsoft.Sql/servers/connectionPolicies",
+        "resourceName": "swe-lovecooking/Default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/firewallrules/ClientIp-2022-5-6_13-0-35",
+        "resourceType": "Microsoft.Sql/servers/firewallrules",
+        "resourceName": "swe-lovecooking/ClientIp-2022-5-6_13-0-35"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/databases/lovecooking",
+            "resourceType": "Microsoft.Sql/servers/databases",
+            "resourceName": "swe-lovecooking/lovecooking"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/securityAlertPolicies/Default",
+        "resourceType": "Microsoft.Sql/servers/securityAlertPolicies",
+        "resourceName": "swe-lovecooking/Default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Storage/storageAccounts/sqlvar7to525c4aick",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "sqlvar7to525c4aick"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/securityAlertPolicies/Default",
+            "resourceType": "Microsoft.Sql/servers/securityAlertPolicies",
+            "resourceName": "swe-lovecooking/Default"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/vulnerabilityAssessments/Default",
+        "resourceType": "Microsoft.Sql/servers/vulnerabilityAssessments",
+        "resourceName": "swe-lovecooking/Default"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/databases/lovecooking",
+            "resourceType": "Microsoft.Sql/servers/databases",
+            "resourceName": "swe-lovecooking/lovecooking"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/SubnetPolicies-",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "SubnetPolicies-"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/PrivateEndpoint-",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "PrivateEndpoint-"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/PrivateEndpoint-",
+            "resourceType": "Microsoft.Resources/deployments",
+            "resourceName": "PrivateEndpoint-"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/PrivateDns-pe-8aae3112-11c5-4f76-b38b-6eb9ea1e7012",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "PrivateDns-pe-8aae3112-11c5-4f76-b38b-6eb9ea1e7012"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking",
+            "resourceType": "Microsoft.Sql/servers",
+            "resourceName": "swe-lovecooking"
+          },
+          {
+            "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Sql/servers/swe-lovecooking/databases/lovecooking",
+            "resourceType": "Microsoft.Sql/servers/databases",
+            "resourceName": "swe-lovecooking/lovecooking"
+          }
+        ],
+        "id": "/subscriptions/8cfda68b-7799-42ac-bca0-ad1a7669ce47/resourceGroups/SWE/providers/Microsoft.Resources/deployments/ledger-",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "ledger-"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
